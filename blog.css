@@ -1,0 +1,23 @@
+body {
+    background-color: #f7916971;
+   font-family: 'Times New Roman', Times, serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  .header {
+    background-color: #251a167a;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .content {
+    padding: 200px;
+  }
+  .footer {
+    background-color: #000000;
+    color: aliceblue;
+    font-family: serif;
+    padding: 4px ;
+    text-align: center;
+  }

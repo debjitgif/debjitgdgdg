@@ -1,0 +1,112 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    background-color: bisque;
+}
+
+ div img{
+
+    margin-right: 21em;
+    height: 9em;
+    width: 9em;
+    border-radius: 50%;
+    border-color: #333;
+    border-style: solid;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+h1{
+    font-family: fantasy
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: antiquewhite;
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: black;
+}
+#about p{
+    font-family: cursive;
+}
+#hobby p{
+    font-family: cursive;
+}
+#contact p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#foot {
+    font-display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    height: 4em;
+    margin-top: 4em;
+}
+#issu{
+    margin-top: 0.5%;
+    text-decoration: wavy;
+    font-family: sans-serif;
+}
+#nav{
+    padding-top: 0.5em;
+   text-align: center;
+}
+button{
+    background-color: aquamarine;
+    color: #333;
+    width: 4em;
+    border-radius: 15%;
+    border-color: aquamarine;
+    height: 3em;
+    box-shadow: #333;
+    
+}
+input{
+    background-color: rgba(255, 217, 0, 0.575);
+    color: black;
+    height: 3em;
+    border-radius: 10%;
+    border-color:rgba(255, 217, 0, 0.575) ;
+}
+textarea{
+    background-color: rgba(255, 217, 0, 0.575);
+    color: black;
+    height: 2em;
+    border-radius: 10%;
+    border-color:rgba(255, 217, 0, 0.575) ;
+    padding-bottom: 2em;
+    margin-bottom: 0; 
+    margin-top: 2em;
+}
